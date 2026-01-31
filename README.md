@@ -1,18 +1,18 @@
 <h1 align="center">TilemapEditor</h1>
 
-try it online at https://blurymind.github.io/tilemap-editor/
+try it online at https://8-16bit.github.io/tilemap-editor/
 
 The online demo is an installable pwa, which has as a goal to demonstrate integration of the editor in other projects.
 You can use the pwa as a way of sharing a demo of tilesets and tilemaps you have created!
 
 As an example this url:
-https://blurymind.github.io/tilemap-editor/?imgur=SjjsjTm
+https://8-16bit.github.io/tilemap-editor/?imgur=SjjsjTm
 the imgur=ID at the end tells tilemap-editor to use as tilesets an imgur uploads gallery with the same id in its url:
 https://imgur.com/a/SjjsjTm
 
 In the same way you can also store your tilemaps in github gists!
 as an example this url:
-https://blurymind.github.io/tilemap-editor/?gist=e81f38830a67444c54adfb4f69c6538d
+https://8-16bit.github.io/tilemap-editor/?gist=e81f38830a67444c54adfb4f69c6538d
 the gist=ID at the end tells tilemap-editor to load the timap data (which also has the tilesets in it) from a gist at github with the same id in its url:
 https://gist.github.com/blurymind/e81f38830a67444c54adfb4f69c6538d
 
