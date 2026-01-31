@@ -1976,10 +1976,10 @@
         document.getElementById("zoomOut").addEventListener("click", zoomOut);
         document.getElementById("setSymbolsVisBtn").addEventListener("click", ()=>toggleSymbolsVisible())
         // Scroll zoom in/out - use wheel instead of scroll event since theres no scrollbar on the map
-        canvas.addEventListener('wheel', e=> {
+        /* canvas.addEventListener('wheel', e=> {
             if (e.deltaY < 0) zoomIn();
             else zoomOut();
-        });
+        }); */
 
         loadData(tileMapData)
         if (appState) {
